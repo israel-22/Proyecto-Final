@@ -1,0 +1,9 @@
+footer{
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    text-align: center;
+    font-size: 12px;
+    padding: 15%;
+
+}

@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+ }
+ body{
+   background-color: blanchedalmond;
+   background: url("../imagenes/llamada.jpg") no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:first baseline;
+    width: 95%;
+    height:1400px;
+    min-height:auto;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    padding: 10px;
+    
+ }

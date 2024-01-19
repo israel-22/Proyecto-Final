@@ -1,0 +1,143 @@
+
+ h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 4px 4px gray;
+  text-align: center;
+  font-size: 70px; 
+ }
+ 
+ h2{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+ }
+ h3{
+    color:blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px gray;
+ }
+ h5{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+ }
+
+ 
+ 
+ .contenedor{
+    margin-top: 200px;
+    position: center;
+    display: flex;
+    align-items: center;
+    width: 500px;
+ }
+ .contenedor-cabecera{
+   margin: 10px;
+   padding: 40px;
+   text-align: center;
+   justify-content: center;
+   color: black;
+   border: 2px solid rgba(255, 255, 255, .6);
+ border-radius: 20px;
+ backdrop-filter: blur(15px);
+   
+     }
+     .contenedor-cabecera1{
+      margin: 10px;
+      padding: 40px;
+      text-align: center;
+      justify-content: center;
+      color: black;
+      border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    width: 1800px;
+    height:800px; 
+      
+   }
+ .contenedor-cabecera2{
+  margin: 10px;
+ padding: 0;
+ text-align: left;
+ justify-content:left;
+ }
+ .contenedor-cabecera3{
+  
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    position: center;
+    margin: 5px;
+   text-decoration-color: aquamarine;
+   text-align: center;
+   justify-content:left;
+   width: 380px;
+   height:30px; 
+   }
+ .contenedor-cabecera-superior{
+    top: -4px;
+    position:relative;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+   
+    display: flex;
+    text-align:start;
+    justify-content:space-evenly;
+ }
+ 
+ .superior{
+    color:white;
+    position: relative;
+    margin-top:10ch;
+    right: -45px;
+ }
+ .inferior{
+    color:white;
+    position: relative;
+    margin-top: 5 ch;
+    top: 1cm;
+    right: -45px;
+ }
+ 
+   .menu{
+    position:-ms-page;
+    width: 490px ;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+   }
+   .nav-enlace{
+    display: inline-block;
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+    font-size: 25px;
+    margin: 10PX;
+ }
+ .nav-enlace:hover{
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, .6);
+    /*intentaremos hacer que el texto seleccionado aparesca el recuadro trasparente*/
+    
+    }
+ 
+   
+      p{
+       display: inline-block;
+        color:black;
+        padding: 10px 20px;
+        font-size: 25px;
+        margin: 10PX;
+      }
+      
+.botones{
+ display: flex;
+flex-direction: column;
+align-items:inherit; 
+}
